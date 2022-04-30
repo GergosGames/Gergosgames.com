@@ -1,9 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div>
+<div>
       
 
       <h1 className="text-3xl font-bold text-gray">
@@ -30,9 +25,6 @@ function App() {
         Dark Blue  IIII
       </h1>
     </div>
-  );
-}
 
-export default App;
-
-
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
