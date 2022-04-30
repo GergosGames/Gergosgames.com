@@ -7,7 +7,7 @@ function App() {
       
 
       <h1 className="text-3xl font-bold text-gray">
-        Gray       IIII
+        Gray       IIII Hello
       </h1>
 
       <h1 className="text-3xl font-bold text-dark-gray">
