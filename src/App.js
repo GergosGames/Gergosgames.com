@@ -1,35 +1,28 @@
 import './App.css';
+import SideBar from './SideBar';
+
+
+
 
 function App() {
   return (
-    <div>
+    <html className="dark">
+      <head>
+        <title>Home</title>
+      </head>
+      
+      <div className="flex">
+        <SideBar/>
+      </div>
+
       
 
-      <h1 className="text-3xl font-bold text-gray">
-        Gray       IIII Hello
-      </h1>
-
-      <h1 className="text-3xl font-bold text-dark-gray">
-        Dark gray  IIII
-      </h1>
-
-      <h1 className="text-3xl font-bold text-light-gray">
-        Light gray IIII
-      </h1>
-
-      <h1 className="text-3xl font-bold text-blue1">
-        Blue1      IIII
-      </h1>
-
-      <h1 className="text-3xl font-bold text-blue2">
-        Blue2      IIII
-      </h1>
-
-      <h1 className="text-3xl font-bold text-dark-blue">
-        Dark Blue  IIII
-      </h1>
-    </div>
+    </html>
+    
+    
   );
+
+  
 }
 
 export default App;

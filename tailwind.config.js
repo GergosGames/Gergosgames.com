@@ -1,4 +1,6 @@
 module.exports = {
+  mode: 'jit',
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -10,16 +12,27 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'blue1': '#1fb6ff',
-      'blue2': '#0055FF',
-      'dark-blue': '#0F587A',
-      'dark-gray': '#606060',
-      'gray': '#808080',
-      'light-gray': '#a9a9a9',
+      
+      'white':      '#FFFFFF',
+      'black1':     '#000000',
+      'blue':       '#0055FF',
+      'light-blue': '#1FB6FF',
+      'dark-blue':  '#0D1117',
+      'light-aqua': '#00FFFF',
+      'dark-aqua':  '#007F7F',
+      'dark-aqua2':  '#00BFBF',
+      'grey':       '#7F7F7F',
+      'dark-grey1':  '#3F3F3F',
+      'dark-grey2':  '#595959',
+      'light-grey': '#BFBFBF',
+      
+
+
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      Roboto: ['Roboto', 'sans-serif'],
+      RobotoMono: ['Roboto Mono', 'sans-serif'],
+      
     },
     extend: {
       spacing: {
