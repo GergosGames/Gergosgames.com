@@ -5,20 +5,29 @@ import {
   Route,
 } from "react-router-dom";
 import './index.css';
-import App from './App.js';
-import About from './pages/About';
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Games from "./pages/Games";
+import Shapetoss from "./pages/Shapetoss";
 import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
+      <Route path="home" element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="games" element={<Games />} />
+      <Route path="games/shapetoss" element={<Shapetoss />} />
+      
     </Routes>
   </BrowserRouter>,
   rootElement
 );
+
+//<Route path="games/shapetoss" element={<Shapetoss/>} />
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
